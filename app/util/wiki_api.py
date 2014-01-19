@@ -2,8 +2,6 @@
 """Wikipedia api utility functions"""
 
 
-import nltk
-
 import wikipedia
 import random
 
@@ -14,7 +12,6 @@ STOP_WORDS = [
     ]
 
 wikipedia.set_lang("ja")
-jp_sent_tokenizer = nltk.RegexpTokenizer(u'[^ 「」!?。．）]*[!?。]')
 
 def to_system_format(page):
     """Convert wikipedia page to the internal content type"""
