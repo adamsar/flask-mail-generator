@@ -1,0 +1,21 @@
+#Virtualenv paths
+bin/
+include/
+.Python
+share
+
+#Emacs generated files
+*~
+*#
+*.#*
+#Compiled files
+*.pyc
+*.egg-info
+
+#Outliers
+test.py
+celery.db
+
+#NodeJS
+node_modules
+flask

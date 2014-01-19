@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3 alert alert-info" ng-show="status=='new'">
+        「やれ！」を押して！
+    </div>
+    <div class="col-md-6 col-md-offset-3 alert alert-warning" ng-show="status=='pending'">
+        今作成中だぞ！
+    </div>
+    <div class="col-md-6 col-md-offset-3 alert alert-success" ng-show="status=='done'">
+        <p ng-repeat="sentence in spamSentences">
+            {{sentence}}
+        </p>
+    </div>
+</div>
+<div class="row top-buffer">
+  <button ng-click="generateSpam()">やれ！</button>
+</div>

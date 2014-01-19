@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="IdProvider" IDEtalkID="71D003E5E70203CD58D20815380FFC4E" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../gengo" value="1380935097000" />
+        <entry key="$PROJECT_DIR$/../../ubicast/opencms-test-servlet" value="1380698269000" />
+      </map>
+    </option>
+  </component>
+</project>
+
