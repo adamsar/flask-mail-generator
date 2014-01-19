@@ -8,7 +8,8 @@ import random
 #Stop words that mark a sentence as invalid
 STOP_WORDS = [
     "==",
-    "External links"
+    "External links",
+    u"（"
     ]
 
 wikipedia.set_lang("ja")
